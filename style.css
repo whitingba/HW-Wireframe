@@ -6,25 +6,65 @@ body {
     font-size: 18px;
 }
 
-header, nav, section, aside, footer {
-    background-color: #ebebeb
+header {
+    padding: 20px;
+     margin-bottom: 10px;
+    }
+
+nav {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header, nav, #div-section, aside, footer {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+#div-section {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+section {
+    width: 485px;
+    height: 210px;
+    padding-left: 10px;
+    padding-top: 20px;
 }
 
 article {
     color: #ebebeb;
     background-color: #777;
-}
+    width: 475px;
+    height: 150px;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
 
-.sub-article1, .sub-article2 {
+ .sub-article1, .sub-article2 {
     color: #777;
     background-color: #ebebeb;
-}
-
-section {
-    width: 495px;;
-}
-
-header {
-    padding: 20px;
-    text-align: center;
+    margin: 15px;
+    padding: 10px;
     }
+
+.sub-article1 {
+    font-weight: bold;
+}
+
+
+aside {
+    float: left;
+    width: 445px;
+    height: 220px;
+    padding-top: 10px;
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+}
+
+
